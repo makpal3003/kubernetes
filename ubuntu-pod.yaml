@@ -3,10 +3,13 @@ kind: Pod
 metadata:
   labels:
     run: ubuntu-pod
+    env: test
+    dev: sam
+    team: osr7
   name: ubuntu-pod
 spec:
   containers:
-  - image: ubuntu
+  - image: debian
     name: ubuntu
     stdin: true
     tty: true
