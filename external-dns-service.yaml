@@ -7,3 +7,5 @@ spec:
   - port: 53
     protocol: UDP
     targetPort: 53
+
+

@@ -1,2 +1,1 @@
-# kubernetes
-Kubernetes
+# k8-prep

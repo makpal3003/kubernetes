@@ -13,3 +13,4 @@ spec:
     targetPort: 8080 # Pod’s listening port
   selector:
     app: kuard-rs-test-pod
+

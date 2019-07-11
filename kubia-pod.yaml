@@ -16,3 +16,4 @@ spec:
         command:
         - ls
         - /var/ready
+

@@ -2,11 +2,11 @@ apiVersion: v1
 kind: Pod
 metadata:
   labels:
-    run: centos2-pod
-  name: centos2-pod
+    run: centos-pod
+  name: centos-pod
 spec:
   nodeSelector:
-    gpu: "true"
+    ssd: "true"
   containers:
   - image: centos
     name: centos
