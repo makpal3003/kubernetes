@@ -9,7 +9,7 @@ spec:
   - ReadWriteOnce
   - ReadOnlyMany
   storageClassName: nfs
-  persistentVolumeReclaimPolicy: Retain
+  persistentVolumeReclaimPolicy: Recycle
   capacity:
     storage: 1Gi
   nfs:
